@@ -1,0 +1,21 @@
+{
+  "name": "webp-converter",
+  "version": "1.0.0",
+  "description": "A script to convert images to WebP format",
+  "main": "webp-converter.js",
+  "type": "module",
+  "bin": {
+    "webp-converter": "./webp-converter.js"
+  },
+  "scripts": {
+    "start": "node webp-converter.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "figlet": "^1.5.2",
+    "ora": "^6.1.2",
+    "sharp": "^0.33.5"
+  },
+  "author": "David Kontorovsky",
+  "license": "MIT"
+}
